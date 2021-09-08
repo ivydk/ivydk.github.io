@@ -1,22 +1,86 @@
+/* color scheme
+blue topaz: #67AECA
+amethyst: #675682
+jewel: #5F0F4E
+rose: #E52A6F
+*/
+
 body {
-    background-color:whitesmoke;
+    background-color: #FFF;
+    display: grid;
+    width: 75%;
+    margin: auto;
+    font-family: monospace;
+    padding: 10px;
+    
+  }
+
+header,nav, 
+main,
+aside,
+footer {
+  background: #eaeaea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header{ 
+    height:fit-content;
+    padding: 15px;
+    font-size: 30px;
+    background-color:#67AECA ;
+    font-weight: bold;
+    margin: 10px 0px 5px 0px;
 }
 
 main {
     color: red;
     background-color:plum;
+    grid-column: 1 / span 5;
+    margin: 5px 0px 5px 0px;
+    padding:15px;
+    align-items: left;
+    justify-content: left;
+    display: flex;
 }
 
 article{
     background-color:seagreen;
+    padding: 15px;
+}
+
+aside {
+    display: block;
+    background-color: violet;
+    grid-column: 1 / span 5;
+    padding: 0px 0px 0px 0px;
+    margin: 5px 0px 5px 0px;
+    float:left;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 
-
+footer{
+    height:fit-content;
+    padding: 15px;
+    font-size: 30px;
+    background-color:#67AECA ;
+    margin: 5px 0px 10px 0px;
+}
 
 nav {
-    display: inline;
-  }
+    display: block;
+    grid-column: 1 / span 5;
+    overflow: hidden;
+    height: fit-content;
+    margin: 5px 0px 5px 0px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #675682;
+}
 
 
 ul {
@@ -24,7 +88,6 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
   }
   
   li {
@@ -41,10 +104,17 @@ ul {
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: #111;
+    background-color:  #333;
   }
 
   .active {
-    background-color: #04AA6D;
+    background-color: #5F0F4E;
   }
   
+  header,
+footer {
+  grid-column: 1 / span 5;
+  background-color: #67AECA;
+}
+
+
