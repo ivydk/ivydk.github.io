@@ -114,18 +114,12 @@ footer {
 }
 
 table{
-  border-collapse: collapse;
-  background-color: #C5C6C7 ;
-
+  border-color: black;
 }
 
 td, th{
-  
   text-align: left;
   padding: 8px;
-} 
-tr:nth-child(even){
-  background-color: #fafafa ;
 } 
 
 .beside{
@@ -181,4 +175,9 @@ tr:nth-child(even){
 }
 
 .img-center {
+}
+
+progress[value] {
+  width: 250px;
+  height: 20px;
 }

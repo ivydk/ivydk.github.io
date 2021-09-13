@@ -24,73 +24,142 @@
     <main>
         <h1>Dashboard</h1>
         <article>
-        <div style="display: inline;">
-            <table> <!--Achtergrond kleur nog verwijderen-->
-                <tr>
-                    <th>Naam toets</th>
-                    <th>EC</th>
-                    <th>Behaalde EC</th>
-                </tr>
-                <tr>
-                    <td>Theorietentamen</td>
-                    <td>5.0</td>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <td>Causustoes</td>
-                    <td>5.0</td>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <td>Groepsopdracht</td>
-                    <td>5.0</td>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <td>Assesment website</td>
-                    <td>2.5</td>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <td>Language test</td>
-                    <td>0.0</td>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <td>Portfolio assesment</td>
-                    <td>12.5</td>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <td>Language test</td>
-                    <td>0.0</td>
-                    <td>...</td>
-                </tr>
-                <tr>
-                    <td>Causustoes</td>
-                    <td>5.0</td>
-                    <td>...</td>
-                </tr>
-            </table>
-            <p>Eerstejaars moeten verplicht een aantal punten halen om door te mogen naar het
-                tweede studiejaar. Haal je dat niet dan krijg je een negatief ‘bindend
-                studieadvies’ (bsa) en moet je stoppen met je opleiding. Behaal
-                je minder dan 48EC in het eerste jaar dan krijg je een NBSA (Negatief Bindend Studie Advies)
-                dit houdt in dat je niet door mag met de studie, tenzij jij hier een goede rede voor hebt
-                dan is er een optie dat je een tweede kans krijgt. Als je een NBSA hebt gekregen mag je wel bij een andere
-                studie beginnen. </p>
-        </div>
-    </article>
+            <div style="display: inline;">
+
+
+                <table border="1">
+                    <tr>
+                        <th>Quartile</th>
+                        <th>Course</th>
+                        <th>EC</th>
+                        <th>Exam</th>
+                        <th>Grade</th>
+                    </tr>
+                    <tr>
+                        <!-- kwartaal 1-->
+                        <td rowspan="3"><b>1</b></td>
+                        <td>Programme and career oriantation</td>
+                        <td>2.5</td>
+                        <td>Assesment exam</td>
+                        <td>...</td>
+                    </tr>
+                    <tr>
+                        <td>Computer science basics</td>
+                        <td>5.0</td>
+                        <td>Written exam</td>
+                        <td>...</td>
+                    </tr>
+                    <tr>
+                        <td>Programming basics</td>
+                        <td>5.0</td>
+                        <td>Case study exam</td>
+                        <td>...</td>
+                    </tr>
+
+                    <tr>
+                        <!-- kwartaal 2-->
+                        <td rowspan="2"><b>2</b></td>
+                        <td rowspan="2">Object oriented programming</td>
+                        <td rowspan="2">10.0</td>
+                        <td>Case study</td>
+                        <td>...</td>
+                    </tr>
+                    <tr>
+
+                        <td>Project</td>
+                        <td>...</td>
+                    </tr>
+
+                    <tr>
+                        <!-- kwartaal 3-->
+                        <td rowspan="4"><b>3</b></td>
+                        <td>Framework development 1</td>
+                        <td>5.0</td>
+                        <td>Case study</td>
+                        <td>...</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="3">Framework project 1</td>
+                        <td rowspan="3">7.5</td>
+                        <td>Project</td>
+                        <td>...</td>
+                    </tr>
+                    <tr>
+                        <td>Assesment</td>
+                        <td>...</td>
+                    </tr>
+                    <tr>
+                        <td>Report</td>
+                        <td>...</td>
+                    </tr>
+
+                    <tr>
+                        <!-- kwartaal 4-->
+                        <td rowspan="3"><b>4</b></td>
+                        <td rowspan="3">Framework project 2</td>
+                        <td rowspan="3">10.0</td>
+                        <td>Portfolio</td>
+                        <td>...</td>
+                    </tr>
+
+                    <tr>
+                        <td>Project</td>
+                        <td>...</td>
+                    </tr>
+
+                    <tr>
+                        <td>Assesment</td>
+                        <td>...</td>
+                    </tr>
+
+                    <!-- Entrire year, 12.5 EC Portfolio ; personality 1 en 2 beide 1.25 EC en Portfolio -->
+                    <tr>
+                        <td rowspan="3"><b>Whole year</b></td>
+                        <td>Personality</td>
+                        <td>12.5</td>
+                        <td>Portfolio</td>
+                        <td>...</td>
+                    </tr>
+                    <tr>
+                        <td>...</td>
+                        <td>Framework development 1</td>
+                        <td>5.0</td>
+                        <td>Case study</td>
+                    </tr>
+                    <tr>
+                        <td>Framework development 1</td>
+                        <td>5.0</td>
+                        <td>Case study</td>
+                        <td>...</td>
+                    </tr>
+
+                </table>
+
+                <p> Behaalde studiepunten: <progress value="20" max="60" /> </p>
+
+
+                <p>Eerstejaars moeten verplicht een aantal punten halen om door te mogen naar het
+                    tweede studiejaar. Haal je dat niet dan krijg je een negatief ‘bindend
+                    studieadvies’ (bsa) en moet je stoppen met je opleiding. Behaal
+                    je minder dan 48EC in het eerste jaar dan krijg je een NBSA (Negatief Bindend Studie Advies)
+                    dit houdt in dat je niet door mag met de studie, tenzij jij hier een goede rede voor hebt
+                    dan is er een optie dat je een tweede kans krijgt. Als je een NBSA hebt gekregen mag je wel bij een
+                    andere
+                    studie beginnen. </p>
+            </div>
+        </article>
     </main>
     <aside>
         <ul>
-          <li><a href="https://learn.hz.nl/my/" target="_blank">HZ learn</a></li>
-          <li><a href="https://portal.hz.nl/" target="_blank">HZ portal</a></li>
-          <li><a href="https://www.w3schools.com/" target="_blank">W3 Schools</a></li>
-          <li><a href="https://github.com/" target="_blank">GitHub</a></li>
-          <li><a href="https://outlook.office.com/mail/inbox" target="_blank">E-mail</a></li>
+            <li><a href="https://learn.hz.nl/my/" target="_blank">HZ learn</a></li>
+            <li><a href="https://portal.hz.nl/" target="_blank">HZ portal</a></li>
+            <li><a href="https://www.w3schools.com/" target="_blank">W3 Schools</a></li>
+            <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+            <li><a href="https://outlook.office.com/mail/inbox" target="_blank">E-mail</a></li>
         </ul>
-      </aside>
+    </aside>
     <footer>FOOTER</footer>
 </body>
+
 </html>
