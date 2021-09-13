@@ -108,23 +108,13 @@ ul {
     background-color: #1F2833;
   }
   
-  header,
-footer {
+  header, footer {
   grid-column: 1 / span 5;
 }
 
-table{
-  border-color: black;
-}
-
-td, th{
-  text-align: left;
-  padding: 8px;
-} 
 
 .beside{
     display: flex;
-
 }
 
 .bottom{
@@ -141,6 +131,10 @@ td, th{
 
 .blog a{
   text-decoration: none;
+}
+
+.card a:hover{
+  background-color: pink;
 }
 
 .link a{
@@ -168,16 +162,38 @@ td, th{
   display:inline-flex;
   justify-content: center;
   position: relative;
+  align-items: center
 }
 
 .footer-display div{
-  padding: 0px 20px;
+  padding: 0px 10px;
 }
 
-.img-center {
+
+
+th, td, tr {
+  padding: 3px 6px;
+  vertical-align: text-top;
+  border-collapse: collapse;
 }
 
-progress[value] {
-  width: 250px;
-  height: 20px;
+.dash-table table{
+  background-color: white ;  
+  text-align: left;
+  border: 10px solid white;
+  color:#1F2833 ;
+  width: 75%;
+}
+
+.dash-table tr:hover{
+  color: rgb(
+    143, 218, 218);
+}
+
+h1{
+  margin: 10px 0px 5px 0px;
+}
+
+h2{
+  margin: 10px 0px 15px 0px;
 }
