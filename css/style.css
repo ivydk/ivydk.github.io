@@ -186,6 +186,10 @@ h2{
   font-size: 25px;
 }
 
+h3{
+  font-weight: bold;
+}
+
 .card  {
   background-color: whitesmoke;
   padding: 12px;
@@ -325,7 +329,8 @@ background-color: crimson;
 }
 
 #container-dashboard{
-  display:flex;
+   display: flex;
+  justify-content:space-between;
 }
 
 #dashboard-item-1{
@@ -343,3 +348,10 @@ float: left;
   height: fit-content;
 }
 
+.link li {
+  list-style: none;
+}
+
+.link ul {
+  padding-bottom: 15px;
+}
