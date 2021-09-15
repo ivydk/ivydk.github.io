@@ -355,3 +355,31 @@ float: left;
 .link ul {
   padding-bottom: 15px;
 }
+
+#swot-table{
+  border: solid 3px whitesmoke;
+  margin-bottom: 15px;
+  border-collapse: collapse;
+}
+
+#swot-table td{
+  border: solid 3px whitesmoke;
+  border-collapse: collapse;
+  padding: 0px 20px;
+}
+
+#strenghts{
+  background-color: #899AE6;
+}
+
+#weaknesses{
+  background-color:#E8DB7D;
+}
+
+#opportunities{
+  background-color: #A6E689;
+}
+
+#threats{
+  background-color: #E68989;
+}
