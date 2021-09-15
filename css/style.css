@@ -7,8 +7,7 @@ body {
     padding: 10px;
   }
 
-header, nav, 
-aside{
+header, nav, aside{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -69,7 +68,6 @@ aside {
     
 }
 
-
 footer{
     height:fit-content;
     padding: 15px;
@@ -100,29 +98,28 @@ ul {
     overflow: hidden;
   }
   
-  li {
+li {
     float: left;
   }
   
-  li a {
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
+
+li a:hover {
     background-color:  rgb(
       143, 218, 218);
   }
 
-  .active {
+.active {
     background-color: #1F2833;
   }
   
-  header, footer {
+header, footer {
   grid-column: 1 / span 5;
 }
 
@@ -174,15 +171,16 @@ th, td, tr {
 }
 
 .dash-table table{
-  background-color: white ;  
+  background-color: whitesmoke ;  
   text-align: left;
-  border: 10px solid white;
+  border: 10px solid whitesmoke;
   color:#1F2833 ;
   width: 75%;
 }
 
 h1{
   margin: 10px 0px 5px 0px;
+  padding-bottom: 10px;
 }
 
 h2{
@@ -191,16 +189,17 @@ h2{
 
 
 .card  {
-  background-color: white;
-  padding: 15px;
+  background-color: whitesmoke;
+  padding: 12px;
   color: #0B0C10;
   display: table-cell;
   width: 300px;
   height: 300px;
 }
 
+/*foto's croppen naar 7:5 verhouding*/
 .card-img{
-  width: 250px;
+  width: 300px;
   height: 250px;
 }
 
@@ -233,7 +232,12 @@ h2{
  #box-container {
   display: flex;
   justify-content:space-between;
+  flex-wrap: wrap;
   }
+
+.container-item {
+  padding-bottom: 30px;
+}
   
 .terug-knop{
   background-color: #1F2833;
@@ -246,5 +250,13 @@ h2{
 }
 
 p{
-  padding-bottom: 15px;
+  font-size: 15px;
+}
+
+summary {
+  font-weight: bold;
+}
+
+.faq{
+  margin-top: 10px;
 }
