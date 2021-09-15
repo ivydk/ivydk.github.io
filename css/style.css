@@ -290,3 +290,56 @@ summary {
   float:right;
   justify-content: right;
 }
+
+
+#container-profile-2{
+  width:100%;
+  display:flex;
+  flex-direction:row;
+}
+
+#profile-item-3{
+  width: 65%
+}
+
+#profile-item-4{
+  width: 890px;
+  justify-content: right;
+  float: right;
+}
+
+.bezig{
+  background-color:cadetblue;
+}
+
+.niet-begonnen{
+background-color: crimson;
+}
+
+.onvoldoende-herkansen{
+  background-color: darkkhaki;
+}
+
+.afgerond{
+  background-color: green;
+}
+
+#container-dashboard{
+  display:flex;
+}
+
+#dashboard-item-1{
+display: flex;
+float: left;
+}
+
+#dashboard-item-2{
+  display:flex;
+  flex-direction:row;
+}
+
+.table-dash-2{
+  text-align: left;
+  height: fit-content;
+}
+
