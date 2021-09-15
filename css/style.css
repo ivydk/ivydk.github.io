@@ -61,7 +61,6 @@ aside {
     padding: 0px 0px 0px 0px;
     margin: 5px 0px 5px 0px;
     float:left;
-    /*width: 100%; */
     font-size: 15px;
     font-weight: bold;
     
@@ -90,18 +89,18 @@ nav {
 }
 
 
-ul {
+.nav-bar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
   }
   
-li {
+.nav-bar li {
     float: left;
   }
   
-li a {
+.nav-bar a {
     display: block;
     color: white;
     text-align: center;
@@ -109,7 +108,7 @@ li a {
     text-decoration: none;
   }
 
-li a:hover {
+.nav-bar a:hover {
     background-color:  rgb(
       143, 218, 218);
   }
@@ -186,32 +185,6 @@ h2{
   margin:  10px 0px 15px 0px;
   font-size: 25px;
 }
-
-
-/* blog pagina 3 naast elkaar 
-
-.card  {
-  background-color: whitesmoke;
-  padding: 12px;
-  color: #0B0C10;
-  display: table-cell;
-  width: 300px;
-  height: 300px;
-}
-
-/foto's croppen naar 7:5 verhouding/
-.card-img{
-  width: 300px;
-  height: 250px;
-}
-
-.fake-img{
-  width: 300px;
-  height: 250px;
-  background-color:#C5C6C7;
-  margin: auto;
-}
-*/
 
 .card  {
   background-color: whitesmoke;
@@ -290,4 +263,30 @@ summary {
 
 .faq{
   margin-top: 10px;
+}
+
+
+#container-item-index-1 {
+  padding-right: 15px;
+  float:left; 
+  padding-bottom: 15px;
+}
+
+#container-item-index-2 {
+  float: top;
+}
+
+#map{
+  style=width: 300px;
+  position: flex;
+}
+
+#wrapper-profile{
+  display: flex;
+  justify-content:space-between;
+}
+
+#profile-item-2{
+  float:right;
+  justify-content: right;
 }
