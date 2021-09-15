@@ -43,7 +43,7 @@ main {
       143, 218, 218);
     grid-column: 1 / span 5;
     margin: 5px 0px 5px 0px;
-    padding:15px;
+    padding: 15px 30px;
     align-items: left;
     justify-content: left;
     display: inline ;
@@ -51,7 +51,6 @@ main {
 }
 
 article{
-    padding: 15px;
     font-size: 15px;
 }
 
@@ -185,8 +184,11 @@ h1{
 
 h2{
   margin:  10px 0px 15px 0px;
+  font-size: 25px;
 }
 
+
+/* blog pagina 3 naast elkaar 
 
 .card  {
   background-color: whitesmoke;
@@ -197,7 +199,7 @@ h2{
   height: 300px;
 }
 
-/*foto's croppen naar 7:5 verhouding*/
+/foto's croppen naar 7:5 verhouding/
 .card-img{
   width: 300px;
   height: 250px;
@@ -209,6 +211,33 @@ h2{
   background-color:#C5C6C7;
   margin: auto;
 }
+*/
+
+.card  {
+  background-color: whitesmoke;
+  padding: 12px;
+  color: #0B0C10;
+  display: table-cell;
+  width: 266px;
+  height: 266px;
+}
+
+.card h2{
+  font-size: 20px;
+}
+
+/*foto's croppen naar 7:5 verhouding*/
+.card-img{
+  width: 266px;
+  height: 194px;
+}
+
+.fake-img{
+  width: 266px;
+  height: 194px;
+  background-color:#C5C6C7;
+  margin: auto;
+}
 
 .card:hover{
   background-color: #E8DB7D;
@@ -216,8 +245,6 @@ h2{
 
 .blog-posts{
     display: table;
-    justify-content:space-between;
-    padding: 30px;
   }
 
 .blog-posts a{
@@ -229,14 +256,18 @@ h2{
   padding-top: 10px;
 }
 
+#img-blog-posts{
+padding: 0px 0px 15px 15px;
+}
+
  #box-container {
   display: flex;
-  justify-content:space-between;
+  justify-content:left;
   flex-wrap: wrap;
   }
 
 .container-item {
-  padding-bottom: 30px;
+  padding: 0px 0px 30px 15px;
 }
   
 .terug-knop{
@@ -254,7 +285,7 @@ p{
 }
 
 summary {
-  font-weight: bold;
+  font-weight: 550;
 }
 
 .faq{
