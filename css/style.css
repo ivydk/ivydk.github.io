@@ -261,15 +261,25 @@ summary {
   margin-top: 10px;
 }
 
+.wrapper-index{
+ display: table;
+}
 
 #container-item-index-1 {
-  padding-right: 15px;
-  float:left; 
-  padding-bottom: 15px;
+  display:table-cell;
 }
 
 #container-item-index-2 {
-  float: top;
+  display:table-cell;
+  vertical-align:top;
+  padding-left: 20px;
+}
+
+#container-item-index-3 {
+  display:table-cell;
+  float: right;
+  padding-left: 20px;
+
 }
 
 #map{
