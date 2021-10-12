@@ -155,6 +155,10 @@ article ul {
     padding-bottom: 15px;
 }
 
+ol li {
+    list-style-type: circle;
+}
+
 .footer-display {
     display: inline-flex;
     justify-content: center;
